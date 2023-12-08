@@ -6,4 +6,4 @@
 <div id="user-content-toc">
 
 # MNIST-digit-classification
-Building a neural network from scratch that will allow MNIST digit classification, without using TensorFlow. 
+Building a neural network from scratch that will allow MNIST digit classification, without using TensorFlow. The project that does use TensorFlow can be found [here](https://github.com/Electromayonaise/Handwritten-Digit-Recognition-with-TensorFlow).
