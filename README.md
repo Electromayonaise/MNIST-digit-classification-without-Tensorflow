@@ -88,5 +88,5 @@ $b^{[2]} = b^{[2]} - \alpha db^{[2]}$
 
 Where $\alpha$ is a hyper parameter and the learning rate, meaning it is not trained by the model, but setted when the cicle is excecuted (when gredient descent is applied). 
 
-###4. Starting again forward propagation with the updated parameters
+### 4. Starting again forward propagation with the updated parameters
 
