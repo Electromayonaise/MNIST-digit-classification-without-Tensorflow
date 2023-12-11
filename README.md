@@ -28,7 +28,7 @@ X^{[1]}&  X^{[2]} & X^{[3]} & X^{[4]} & X^{[n]}\\
 | & | & | & | & | \\ 
 \end{pmatrix}$$   
 
-Now, starting to descibe the nural network, it is quite a simple one, with only 2 layers as follows: 
+Now, starting to descibe the neural network, it is quite a simple one, with only 2 layers as follows: 
 
 - The 0th layer: 784 nodes (input layer)
 - The 1st layer: 10 units (hidden layer)
@@ -61,6 +61,8 @@ $A^{[2]} = Softmax(Z^{[2]})$ This will give a probability (a double between 0 an
 ### 2. Backwards propagation 
 
 Backwards propagation serves as a way to adjust the weights and biases and train the network. It is the opposite process to forward prop., so it starts with a prediction and finds how much the prediction deviated from the actual label (so instead of giving a success probability it gives an epsilon or error) so it is possible to see how much did the previus weights and biases contributed to the actual error, and adjust them accordingly. 
+
+
 
 
 
